@@ -17,6 +17,11 @@ OpenVAS2Report
 :Documentation HTML [EN]: http://openvas-to-report.readthedocs.org/en/latest/
 :Python version:   Python 3
 
+Support this project
+====================
+
+Support this project (to solve issues, new features...) by applying the Github "Sponsor" button.
+
 What's OpenVAS2Report?
 ======================
 
