@@ -12,7 +12,7 @@ setup(
     license='BSD',
     author='cr0hn',
     package_data={'openvas_to_report': files},
-    author_email='cr0hn<-at->cr0hn.com',
+    author_email='daniel<-at->danielalfocea.com',
     description='OpenVAS2Report: A set of tools to manager OpenVAS XML report files.',
     entry_points={'console_scripts': [
         'openvas_to_report = openvas_to_report.openvas_to_document:main',
