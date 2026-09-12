@@ -197,12 +197,12 @@ class Vulnerability(object):
         :raises: TypeError, ValueError
         """
         # Get info
-        cves = kwargs.get("cves", [])
-        cvss = kwargs.get("cvss", -1.0)
-        description = kwargs.get("description", "")
-        references = kwargs.get("references", [])
-        level = kwargs.get("level", "low")
-        family = kwargs.get("family", "unknown")
+        cves = kwargs.get("cves") or []
+        cvss = kwargs.get("cvss") or -1.0
+        description = kwargs.get("description") or ""
+        references = kwargs.get("references") or []
+        level = kwargs.get("level") or "low"
+        family = kwargs.get("family") or "unknown"
 
         if not isinstance(id, str):
             raise TypeError("Expected basestring, got '%s' instead" % type(id))
